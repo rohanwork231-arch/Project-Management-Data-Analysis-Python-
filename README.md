@@ -65,7 +65,6 @@ Replacement of missing project costs using expanding mean technique.
 ### 3️⃣ Feature Engineering  
 Splitting full name into first and last name for structured data processing.  
 ![Feature Engineering](Visuals/Name%20split%20feature%20engineering.png)
-
 ### 4️⃣ Final Merged Dataset  
 Integration of project, employee, and designation datasets using left joins.  
 ![Merged Dataset](Visuals/Final%20merged%20dataset%20–%20project%20+%20employee%20+%20designation.png)
