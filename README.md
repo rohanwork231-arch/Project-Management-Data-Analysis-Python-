@@ -52,7 +52,31 @@ This project focuses on analyzing project management data using Python. The obje
 - Employee-level total project cost calculation  
 - Structured final dataset creation  
 
----
+## 📸 Project Workflow & Key Outputs
+
+### 1️⃣ Initial Project DataFrame  
+Creation of structured dataset with identified missing cost values.  
+![Initial Dataset](Visuals/initial_project_dataframe.png.png)
+
+### 2️⃣ Missing Value Imputation  
+Replacement of missing project costs using expanding mean technique.  
+![Missing Value Imputation](Visuals/Missing value imputation using expanding mean.png)
+
+### 3️⃣ Feature Engineering  
+Splitting full name into first and last name for structured data processing.  
+![Feature Engineering](Visuals/Name split feature engineering.png)
+
+### 4️⃣ Final Merged Dataset  
+Integration of project, employee, and designation datasets using left joins.  
+![Merged Dataset](Visuals/Final merged dataset – project + employee + designation.png)
+
+### 5️⃣ Business Rule Implementation  
+Bonus calculation applied to employees with completed projects.  
+![Bonus Logic](Visuals/Bonus calculation – business rule logic.png)
+
+### 6️⃣ Final Cost Aggregation  
+Total project cost calculated per employee using groupby aggregation.  
+![Final Aggregation](Visuals/Final cost aggregation per employee – groupby result.png)
 
 ## 📈 Key Insights
 - Missing project cost values were handled using statistical imputation  
